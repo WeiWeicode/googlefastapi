@@ -5,6 +5,7 @@ from typing import Optional
 from fastapi import FastAPI
 from pydantic import BaseModel
 
+# Json = "google下載下來的key"
 Json = "./valiant-airlock-368605-b41043dbf16a.json"
 Url = ["https://spreadsheets.google.com/feeds"]
 Connect = SAC.from_json_keyfile_name(Json, Url)
